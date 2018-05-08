@@ -8,10 +8,9 @@
 <body>
 <h1>Section 2: JavaScript Language Basics</h1>
 </body>
+
+
+
+<script src="script.js"></script>
 </html>
 
-
-<script>
-    console.log('ellllo world!');
-
-</script>
