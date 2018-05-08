@@ -9,3 +9,9 @@
 <h1>Section 2: JavaScript Language Basics</h1>
 </body>
 </html>
+
+
+<script>
+    console.log('ellllo world!');
+
+</script>
