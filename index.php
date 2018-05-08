@@ -15,3 +15,5 @@
     console.log('ellllo world!');
 
 </script>
+
+how I make go?
