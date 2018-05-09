@@ -44,25 +44,27 @@ console.log(fullAge);
 //     ismarried + ' . ');
 
 //Lecture Operators
-
-var now = 2016;
-
-var birthYear = now - 26;
-
-birthYear = now - 26 * 2;
-//2015 -52
-//1964
-
-console.log(birthYear);
-
-var ageOfJohn = 30;
-var ageofMark = 30;
-
-ageOfJohn =  ageofMark = (3 + 5) * 4 - 6;
-// ageOfJohn = ageOfMark= 26
-//ageofJohn = 26
-ageOfJohn++;
-console.log(ageOfJohn + 1 , ageofMark);
-console.log(ageofMark);
+//
+// var now = 2016;
+//
+// var birthYear = now - 26;
+//
+// birthYear = now - 26 * 2;
+// //2015 -52
+// //1964
+//
+// console.log(birthYear);
+//
+// var ageOfJohn = 30;
+// var ageofMark = 30;
+//
+// ageOfJohn =  ageofMark = (3 + 5) * 4 - 6;
+// // ageOfJohn = ageOfMark= 26
+// //ageofJohn = 26
+// ageOfJohn++;
+// ageofMark *= 2;
+// ageofMark = ageofMark * 2;
+// console.log(ageOfJohn + 1 , ageofMark);
+// console.log(ageofMark);
 
 
