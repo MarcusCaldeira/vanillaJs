@@ -15,32 +15,54 @@ console.log(fullAge);
 */
 
 // Lecture Variables 2
+//
+// var name = ('John');
+// var age = 26;
+//
+// // console.log(name + age);
+//
+// var job, ismarried;
+// // console.log(job);
+//
+// job = 'teacher';
+// ismarried = 'false';
+// console.log(name + ' is ' + age + ' years old ' + job + ' is he married? ' +
+// ismarried + ' . ');
+//
+// age = 'thirty-five';
+// job = 'driver';
+//
+// job = 'driver';
+// ismarried = 'false';
+// console.log(name + ' is ' + age + ' years old ' + job + ' is he married? ' +
+//     ismarried + ' . ');
+//
+// // var lastName = prompt ('what is the last name?');
+// // console.log(lastName);
+//
+// alert(name + ' is ' + age + ' years old ' + job + ' is he married? ' +
+//     ismarried + ' . ');
 
-var name = ('John');
-var age = 26;
+//Lecture Operators
 
-// console.log(name + age);
+var now = 2016;
 
-var job, ismarried;
-// console.log(job);
+var birthYear = now - 26;
 
-job = 'teacher';
-ismarried = 'false';
-console.log(name + ' is ' + age + ' years old ' + job + ' is he married? ' +
-ismarried + ' . ');
+birthYear = now - 26 * 2;
+//2015 -52
+//1964
 
-age = 'thirty-five';
-job = 'driver';
+console.log(birthYear);
 
-job = 'driver';
-ismarried = 'false';
-console.log(name + ' is ' + age + ' years old ' + job + ' is he married? ' +
-    ismarried + ' . ');
+var ageOfJohn = 30;
+var ageofMark = 30;
 
-// var lastName = prompt ('what is the last name?');
-// console.log(lastName);
-
-alert(name + ' is ' + age + ' years old ' + job + ' is he married? ' +
-    ismarried + ' . ');
+ageOfJohn =  ageofMark = (3 + 5) * 4 - 6;
+// ageOfJohn = ageOfMark= 26
+//ageofJohn = 26
+ageOfJohn++;
+console.log(ageOfJohn + 1 , ageofMark);
+console.log(ageofMark);
 
 
