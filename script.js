@@ -67,4 +67,14 @@ console.log(fullAge);
 // console.log(ageOfJohn + 1 , ageofMark);
 // console.log(ageofMark);
 
+var name = 'john';
+var age = 26;
+var isMarried = 'no';
+
+if (isMarried == 'yes'){
+    console.log(name + 'is married!' );
+} else {
+    console.log(name + 'will marry soon' );
+}
+
 
