@@ -137,3 +137,9 @@ var friendHeight = (377);
 var scoreJohn = johnHeight + 5 * johnAge;
 var scooreFriend = friendHeight + 5 * friendAge;
 
+if (scoreJohn > scooreFriend){
+    console.log('john wins the game' + scoreJohn + 'points')
+} else if(scooreFriend > scoreJohn){
+    console.log('friend wins the game' + scooreFriend  + 'points');
+}
+
