@@ -97,29 +97,43 @@ console.log(fullAge);
 
 
 // Lecture Boolean Logic
+//
+// var age = 20;
+//
+// if(age < 20 ){
+//     console.log('teenager');
+// } else if (age >= 20 && age < 30) {
+//     console.log('john is a young man')
+// } else {
+//     console.log('is an adult');
+// }
+//
+// var job = 'teacher';
+//
+// job = prompt('what does john do');
+//
+// switch (job){
+//     case 'teacher':
+//     console.log('john teaches kids');
+//         break;
+//     case 'driver':
+//         console.log('john drives a cab in Lisbon');
+//         break;
+//     case 'cop':
+//         console.log('john helps fight crime');
+//         break;
+//     default:
+//         console.log('john does something else');
+// }
 
-var age = 20;
 
-if(age < 20 ){
-    console.log('teenager');
-} else if (age >= 20 && age < 30) {
-    console.log('john is a young man')
-} else {
-    console.log('is an adult');
-}
+// coding challenge 1
 
-var job = 'teacher';
+var johnAge = (25);
+var johnHeight = (177);
+var friendAge = (27);
+var friendHeight = (377);
 
-switch (job){
-    case 'teacher':
-    console.log('john teaches kids');
-        break;
-    case 'driver':
-        console.log('john drives a cab in Lisbon');
-        break;
-    case 'cop':
-        console.log('john helps fight crime');
-        break;
-    default:
-        console.log('john does something else');
-}
+var scoreJohn = johnHeight + 5 * johnAge;
+var scooreFriend = friendHeight + 5 * friendAge;
+
