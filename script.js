@@ -67,14 +67,59 @@ console.log(fullAge);
 // console.log(ageOfJohn + 1 , ageofMark);
 // console.log(ageofMark);
 
-var name = 'john';
-var age = 26;
-var isMarried = 'no';
+// var name = 'john';
+// var age = 26;
+// var isMarried = 'yes';
+//
+// if (isMarried == 'yes'){
+//     console.log(name + 'is married!' );
+// } else {
+//     console.log(name + 'will marry soon' );
+// }
+//
+// isMarried = true;
 
-if (isMarried == 'yes'){
-    console.log(name + 'is married!' );
+
+//
+// if(isMarried){
+//     console.log('yes');
+// }else{
+//     console.log('no');
+// }
+
+// if(isMarried){
+//     console.log('yes');
+// }
+//
+// if(23 === "23"){
+//     console.log('something to print. . .');
+// }
+
+
+// Lecture Boolean Logic
+
+var age = 20;
+
+if(age < 20 ){
+    console.log('teenager');
+} else if (age >= 20 && age < 30) {
+    console.log('john is a young man')
 } else {
-    console.log(name + 'will marry soon' );
+    console.log('is an adult');
 }
 
+var job = 'teacher';
 
+switch (job){
+    case 'teacher':
+    console.log('john teaches kids');
+        break;
+    case 'driver':
+        console.log('john drives a cab in Lisbon');
+        break;
+    case 'cop':
+        console.log('john helps fight crime');
+        break;
+    default:
+        console.log('john does something else');
+}
