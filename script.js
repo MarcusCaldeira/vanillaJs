@@ -129,17 +129,48 @@ console.log(fullAge);
 
 // coding challenge 1
 
-var johnAge = (25);
-var johnHeight = (177);
-var friendAge = (27);
-var friendHeight = (377);
+// var johnAge = (25);
+// var johnHeight = (177);
+// var friendAge = (27);
+// var friendHeight = (377);
+//
+// var scoreJohn = johnHeight + 5 * johnAge;
+// var scooreFriend = friendHeight + 5 * friendAge;
 
-var scoreJohn = johnHeight + 5 * johnAge;
-var scooreFriend = friendHeight + 5 * friendAge;
-
+/*
 if (scoreJohn > scooreFriend){
     console.log('john wins the game' + scoreJohn + 'points')
 } else if(scooreFriend > scoreJohn){
     console.log('friend wins the game' + scooreFriend  + 'points');
+} else if (scoreJohn == scooreFriend){
+    console.log('there is a draw');
 }
+*/
+
+
+//
+// var mary = 26;
+// var maryHeight = 235;
+// var maryScore = maryHeight + 5 * mary;
+//
+// if (scoreJohn > scooreFriend && scoreJohn > maryScore){
+//     console.log('john wins the game' + scoreJohn + 'points')
+// }
+// else if (scooreFriend > scoreJohn && scooreFriend > maryScore){
+//     console.log('friend wins the game' + scooreFriend  + 'points');
+// }
+// else if (maryScore > scoreJohn && maryScore > scooreFriend){
+//     console.log('Mary wins the game' + maryScore  + 'points');
+// }
+// else{
+//     console.log('it\'s it a draw')
+// }
+
+//Lecture Functions
+
+
+
+
+
+
 
