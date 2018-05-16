@@ -168,7 +168,11 @@ if (scoreJohn > scooreFriend){
 
 //Lecture Functions
 
-
+function calculateAge(yearOfBirth){
+    var age = 2016 -yearOfBirth;
+    return age;
+}
+calculateAge(1990);
 
 
 
