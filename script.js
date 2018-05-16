@@ -205,5 +205,18 @@ function points(ranking){
 var pointsJohn = points(170);
 var pointsMike = points(160);
 var pointsMary = points(130);
+console.log(pointsJohn);
+console.log(pointsMike);
+console.log(pointsMary);
+
+function whoIsGonnaWin(name, score) {
+    var userPoints = userPoints(points);
+    var winner = 1 + points;
+
+    if (userPoints >= 100){
+        console.log(pointsJohn, pointsMary, pointsMike);
+    } else console.log('points arent high enough');
+
+}
 
 
