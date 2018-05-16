@@ -198,5 +198,12 @@ yearsUntilRetirement('Mary', 1948);
 
 
 
+function points(ranking){
+    var userPoints = ranking + 1;
+    return userPoints;
+}
+var pointsJohn = points(170);
+var pointsMike = points(160);
+var pointsMary = points(130);
 
 
