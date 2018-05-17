@@ -233,12 +233,16 @@ if (scoreJohn > scooreFriend){
 //     //then do something
 // }
 
-var names = ['John', 'Jane', 'Mark'];
-var years = new Array(1990, 1989, 1946);
+// var names = ['John', 'Jane', 'Mark'];
+// var years = new Array(1990, 1989, 1946);
+//
+// console.log(names[1]);
+// //this will give us jane.
+//
+// names[1] = 'Ben';
+// console.log(names);
 
-console.log(names[1]);
-//this will give us jane.
+var john = ['John', 'Smith', 1990, 'Teacher', 'false'];
 
-names[1] = Ben;
-console.log(names);
-
+john.push('blue');
+console.log(john);
