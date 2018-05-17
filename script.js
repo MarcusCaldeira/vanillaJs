@@ -242,7 +242,11 @@ if (scoreJohn > scooreFriend){
 // names[1] = 'Ben';
 // console.log(names);
 
-var john = ['John', 'Smith', 1990, 'Teacher', 'false'];
-
-john.push('blue');
+var john = {
+    name: 'john',
+    lastName: 'smith',
+    yearOfBirth: 1990,
+    job: 'teacher',
+    isMarried: false
+};
 console.log(john);
