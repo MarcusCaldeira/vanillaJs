@@ -168,55 +168,77 @@ if (scoreJohn > scooreFriend){
 
 //Lecture Functions
 
-function calculateAge(yearOfBirth){
-    var age = 2016 -yearOfBirth;
-    return age;
-}
-var ageJohn = calculateAge(1990);
-var ageMike = calculateAge(1969);
-var ageMary = calculateAge(1948);
-console.log(ageJohn);
-console.log(ageMike);
-console.log(ageMary);
+// function calculateAge(yearOfBirth){
+//     var age = 2016 -yearOfBirth;
+//     return age;
+// }
+// var ageJohn = calculateAge(1990);
+// var ageMike = calculateAge(1969);
+// var ageMary = calculateAge(1948);
+// console.log(ageJohn);
+// console.log(ageMike);
+// console.log(ageMary);
+//
+//
+// function yearsUntilRetirement(name, year){
+//     var age = calculateAge(year);
+//     var retirement = 65 - age;
+//
+//     if (retirement >= 0){
+//         console.log(name + ' retires in ' + retirement + ' years. ');
+//     } else{
+//         console.log(name + ' is already retired!')
+//     }
+//
+//
+// }
+// yearsUntilRetirement('John', 1990);
+// yearsUntilRetirement('Mike', 1969);
+// yearsUntilRetirement('Mary', 1948);
+//
+//
+//
+// function points(ranking){
+//     var userPoints = ranking + 1;
+//     return userPoints;
+// }
+// var pointsJohn = points(170);
+// var pointsMike = points(160);
+// var pointsMary = points(130);
+// console.log(pointsJohn);
+// console.log(pointsMike);
+// console.log(pointsMary);
+//
+// function whoIsGonnaWin(name, score) {
+//     var userPoints = userPoints(points);
+//     var winner = 1 + points;
+//
+//     if (winner >= 100){
+//         console.log(userPoints);
+//     } else console.log('points arent high enough');
+//
+// }
+//
+// function someFun(Param) {
+//     //code
+// }
+//
+// var someFun = function (par) {
+//     //code
+// }
+//
+//
+// //statement produces and action does not produce an immediate value.
+// if (x === 5){
+//     //then do something
+// }
 
+var names = ['John', 'Jane', 'Mark'];
+var years = new Array(1990, 1989, 1946);
 
-function yearsUntilRetirement(name, year){
-    var age = calculateAge(year);
-    var retirement = 65 - age;
+console.log(names[1]);
+//this will give us jane.
 
-    if (retirement >= 0){
-        console.log(name + ' retires in ' + retirement + ' years. ');
-    } else{
-        console.log(name + ' is already retired!')
-    }
-
-
-}
-yearsUntilRetirement('John', 1990);
-yearsUntilRetirement('Mike', 1969);
-yearsUntilRetirement('Mary', 1948);
-
-
-
-function points(ranking){
-    var userPoints = ranking + 1;
-    return userPoints;
-}
-var pointsJohn = points(170);
-var pointsMike = points(160);
-var pointsMary = points(130);
-console.log(pointsJohn);
-console.log(pointsMike);
-console.log(pointsMary);
-
-function whoIsGonnaWin(name, score) {
-    var userPoints = userPoints(points);
-    var winner = 1 + points;
-
-    if (userPoints >= 100){
-        console.log(pointsJohn, pointsMary, pointsMike);
-    } else console.log('points arent high enough');
-
-}
-
+names[1] = Ben;
+console.log(names);
 
