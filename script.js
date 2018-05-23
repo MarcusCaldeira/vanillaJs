@@ -247,6 +247,10 @@ var john = {
     lastName: 'smith',
     yearOfBirth: 1990,
     job: 'teacher',
-    isMarried: false
+    isMarried: false,
+    family:['jane', 'mark', 'bob'],
+    calculateAge: function(yearOfBirth){
+        return 2016 -yearOfBirth;
+    }
 };
-console.log(john);
+console.log(john.family);
