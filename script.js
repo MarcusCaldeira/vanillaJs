@@ -257,16 +257,16 @@ if (scoreJohn > scooreFriend){
 // };
 
 
-
-
-console.log(john.calculateAge());
-
-var age = john.calculateAge();
-john.age = age;
-
-
-
-console.log(john.age);
+//
+//
+// console.log(john.calculateAge());
+//
+// var age = john.calculateAge();
+// john.age = age;
+//
+//
+//
+// console.log(john.age);
 
 
 //v2.0
@@ -276,7 +276,39 @@ var john = {
     yearOfBirth: 1990,
     job: 'teacher',
     isMarried: false,
-    family:['jane', 'mark', 'bob'],
-    calculateAge: function(){
-        return 2016 - this.yearOfBirth;
+    family: ['jane', 'mark', 'bob'],
+    calculateAge: function () {
+        this.age = 2016 - this.yearOfBirth
     }
+};
+
+john.calculateAge();
+console.log(john);
+
+
+var mike = {
+    yearOfBirth: 1950,
+    calculateAge: function () {
+        this.age = 2016 - this.yearOfBirth;
+    }
+};
+
+mike.calculateAge();
+console.log(mike);
+
+
+
+
+var user = {
+    faceboook: 30,
+    youtube: 'URL',
+    pintrest: 'URL',
+    LinkedIn; 'URL',
+    caculatePoints: function () {
+    this.points = 1 - this.faceboook;
+    }
+
+};
+
+user.points();
+console.log(user);
