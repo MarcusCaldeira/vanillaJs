@@ -242,6 +242,34 @@ if (scoreJohn > scooreFriend){
 // names[1] = 'Ben';
 // console.log(names);
 
+
+//v1.0
+// var john = {
+//     name: 'john',
+//     lastName: 'smith',
+//     yearOfBirth: 1990,
+//     job: 'teacher',
+//     isMarried: false,
+//     family:['jane', 'mark', 'bob'],
+//     calculateAge: function(){
+//         return 2016 - this.yearOfBirth;
+//     }
+// };
+
+
+
+
+console.log(john.calculateAge());
+
+var age = john.calculateAge();
+john.age = age;
+
+
+
+console.log(john.age);
+
+
+//v2.0
 var john = {
     name: 'john',
     lastName: 'smith',
@@ -249,8 +277,6 @@ var john = {
     job: 'teacher',
     isMarried: false,
     family:['jane', 'mark', 'bob'],
-    calculateAge: function(yearOfBirth){
-        return 2016 -yearOfBirth;
+    calculateAge: function(){
+        return 2016 - this.yearOfBirth;
     }
-};
-console.log(john.family);
