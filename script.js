@@ -298,17 +298,14 @@ console.log(mike);
 
 
 
-
+//my own thing
 var user = {
-    faceboook: 30,
-    youtube: 'URL',
-    pintrest: 'URL',
-    LinkedIn; 'URL',
-    caculatePoints: function () {
-    this.points = 1 - this.faceboook;
-    }
-
+    age: 15,
+    facebook: 'URL',
+    myspace: 'URL',
+    anything: 'else',
+    calculateAge: function () {
+        this.age = 2016 - this.age;
 };
 
-user.points();
 console.log(user);
