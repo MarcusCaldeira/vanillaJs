@@ -316,12 +316,23 @@ if (scoreJohn > scooreFriend){
 //     console.log(i);
 // }
 
+
+//for loops
 var names = ['john', 'jane', 'mary', 'mark', 'bob'];
 
 // for (var i = 0; i < names.length; i++){
 //     console.log(names[i]);
 // }
 
-for (var i = names.length -1; i >= 0; i--){
+// for (var i = names.length -1; i >= 0; i--){
+//     console.log(names[i]);
+// }
+
+// while loops
+var i = 0;
+
+while ( i < names.length){
     console.log(names[i]);
+    i++;
+
 }
