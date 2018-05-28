@@ -315,3 +315,9 @@ if (scoreJohn > scooreFriend){
 for (var i  = 0 ; i < 10; i++){
     console.log(i);
 }
+
+var names = ['john', 'jane', 'mary', 'mark', 'bob'];
+
+for (var i = 0; i < 5; i++){
+    console.log(names(i));
+}
