@@ -269,43 +269,49 @@ if (scoreJohn > scooreFriend){
 // console.log(john.age);
 
 
-//v2.0
-var john = {
-    name: 'john',
-    lastName: 'smith',
-    yearOfBirth: 1990,
-    job: 'teacher',
-    isMarried: false,
-    family: ['jane', 'mark', 'bob'],
-    calculateAge: function () {
-        this.age = 2016 - this.yearOfBirth
-    }
-};
+// //v2.0
+// var john = {
+//     name: 'john',
+//     lastName: 'smith',
+//     yearOfBirth: 1990,
+//     job: 'teacher',
+//     isMarried: false,
+//     family: ['jane', 'mark', 'bob'],
+//     calculateAge: function () {
+//         this.age = 2016 - this.yearOfBirth
+//     }
+// };
+//
+// john.calculateAge();
+// console.log(john);
+//
+//
+// var mike = {
+//     yearOfBirth: 1950,
+//     calculateAge: function () {
+//         this.age = 2016 - this.yearOfBirth;
+//     }
+// };
+//
+// mike.calculateAge();
+// console.log(mike);
+//
+//
+//
+// //my own thing
+// var user = {
+//     age: 15,
+//     facebook: 'URL',
+//     myspace: 'URL',
+//     anything: 'else',
+//     calculateAge: function () {
+//         this.age = 2016 - this.age;
+// };
+//
+// console.log(user);
 
-john.calculateAge();
-console.log(john);
+// Lecture Loops
 
-
-var mike = {
-    yearOfBirth: 1950,
-    calculateAge: function () {
-        this.age = 2016 - this.yearOfBirth;
-    }
-};
-
-mike.calculateAge();
-console.log(mike);
-
-
-
-//my own thing
-var user = {
-    age: 15,
-    facebook: 'URL',
-    myspace: 'URL',
-    anything: 'else',
-    calculateAge: function () {
-        this.age = 2016 - this.age;
-};
-
-console.log(user);
+for (var i  = 0 ; i < 10; i++){
+    console.log(i);
+}
