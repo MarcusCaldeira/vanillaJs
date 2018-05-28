@@ -312,12 +312,16 @@ if (scoreJohn > scooreFriend){
 
 // Lecture Loops
 
-for (var i  = 0 ; i < 10; i++){
-    console.log(i);
-}
+// for (var i  = 0 ; i < 10; i++){
+//     console.log(i);
+// }
 
 var names = ['john', 'jane', 'mary', 'mark', 'bob'];
 
-for (var i = 0; i < 5; i++){
-    console.log(names(i));
+for (var i = 0; i < names.length; i++){
+    console.log(names[i]);
+}
+
+for (var i = names.length -1; i--;){
+    console.log(names[1]);
 }
