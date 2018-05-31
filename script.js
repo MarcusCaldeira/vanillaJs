@@ -377,3 +377,6 @@ function printFullAge(years) {
     }
     return fullAges;
 }
+
+var full_1 = printFullAge(years);
+var full_2 = printFullAge(2012, 1915, 1999);
