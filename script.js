@@ -359,6 +359,17 @@ var years = [2001, 1985, 1994, 2014, 1973];
 
 var ages = [];
 
-for (i = 0; i < years.length; i++ ){
+for (var i= 0; i = 0; i < years.length; i++ ){
     ages[i] = 2016 - years [i];
+}
+
+for (i = 0; i < ages.length; i++){
+    if (ages[i] >= 18){
+        console.log(' Person is' + age [i] +
+            'years old and is of full age')
+        else{
+            console.log(' Person is' + age [i] +
+                'years old and is NOT of full age')
+        }
+    }
 }
