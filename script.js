@@ -316,23 +316,49 @@ if (scoreJohn > scooreFriend){
 //     console.log(i);
 // }
 
-
-//for loops
-var names = ['john', 'jane', 'mary', 'mark', 'bob'];
-
-// for (var i = 0; i < names.length; i++){
+//
+// //for loops
+// var names = ['john', 'jane', 'mary', 'mark', 'bob'];
+//
+// // for (var i = 0; i < names.length; i++){
+// //     console.log(names[i]);
+// // }
+//
+// // for (var i = names.length -1; i >= 0; i--){
+// //     console.log(names[i]);
+// // }
+//
+// // while loops
+// var i = 0;
+//
+// while ( i < names.length){
 //     console.log(names[i]);
+//     i++;
+//
+// }
+//
+// for (var i = 1; i <= 5; i++ ){
+//     console.log(i);
+//
+//     if (i == 3){
+//         break;
+//     }
+// }
+//
+//
+// for (var i = 1; i <= 5; i++ ){
+//     if (i == 3){
+//         continue;
+//     }
+//     console.log(i);
 // }
 
-// for (var i = names.length -1; i >= 0; i--){
-//     console.log(names[i]);
-// }
+// Coding Challenge 2
 
-// while loops
-var i = 0;
+var years = [2001, 1985, 1994, 2014, 1973];
 
-while ( i < names.length){
-    console.log(names[i]);
-    i++;
+var ages = [];
 
+for (i = 0; i < years.length; i++ ){
+    ages[i] = 2016 - years [i];
 }
