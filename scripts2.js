@@ -1,5 +1,18 @@
+
+calculateAge(1965);
+
 function calculateAge(year) {
     console.log(2016-year);
 }
 
-calculateAge(1990);
+
+// retirement(1990);
+var retirement = function(year){
+    console.log(65 - (2016 - year));
+}
+
+
+// variables
+
+var age = 23;
+console.log(age);
