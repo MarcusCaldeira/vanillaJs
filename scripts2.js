@@ -34,4 +34,4 @@ function myAge(dob) {
     }
     return age;
 }
-alert(getAge("09/27/1991"));
+alert(age(09/27/1991));
