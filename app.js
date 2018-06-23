@@ -14,9 +14,24 @@ var scores, roundScores, activePlayer, dice;
 
 scores = [0,0];
 roundScores  = 0;
-activePlayer = 0;
+activePlayer = 1;
 
 dice = Math.floor(Math.random() * 6) + 1;
 
 
-document.querySelectorAll('#score-0').textContent = dice;
+document.querySelector('#current-' + activePlayer).textContent = dice;
+// document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
+
+
+var x = document.querySelector('#score-0').textContent;
+console.log(x);
+
+document.querySelector('.dice').style.display = 'none';
+
+
+document.querySelector('.btn-roll').addEventListener('click', function() {
+
+
+
+});
+
