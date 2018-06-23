@@ -22,6 +22,13 @@ activePlayer = 1;
 
 document.querySelector('.dice').style.display = 'none';
 
+document.getElementById('score-0').textContent = '0';
+document.getElementById('score-1').textContent = '0';
+document.getElementById('current-0').textContent = '0';
+document.getElementById('current-1').textContent = '0';
+
+
+
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
 
@@ -32,9 +39,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     var diceDom = document.querySelector('.dice')
     diceDom.style.display = 'block';
     diceDom.src = 'dice-' + dice + '.png';
-
-
     // 3. Update the Round Scopare IF the rolled number was  not 1
+
 
 
 });
