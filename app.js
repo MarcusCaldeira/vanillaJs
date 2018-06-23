@@ -31,7 +31,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     // 2. Display the Result
     var diceDom = document.querySelector('.dice')
     diceDom.style.display = 'block';
-    diceDom.src = 'dice-' + dice + 'png';
+    diceDom.src = 'dice-' + dice + '.png';
 
 
     // 3. Update the Round Scopare IF the rolled number was  not 1
