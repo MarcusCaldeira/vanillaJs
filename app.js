@@ -30,7 +30,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
     // 2. Display the Result
     var diceDom = document.querySelector('.dice')
-    diceDom.document.style.display = 'block';
+    diceDom.style.display = 'block';
     diceDom.src = 'dice-' + dice + 'png';
 
 
