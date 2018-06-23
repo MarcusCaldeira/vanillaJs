@@ -9,4 +9,11 @@ GAME RULES:
 
 */
 
-var scores = [0,0];
+
+var scores, roundScores, activePlayer;
+
+scores = [0,0];
+roundScores  = 0;
+activePlayer = 0;
+
+
