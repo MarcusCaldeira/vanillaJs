@@ -16,4 +16,7 @@ scores = [0,0];
 roundScores  = 0;
 activePlayer = 0;
 
-dice = 6;
+dice = Math.floor(Math.random() * 6) + 1;
+
+
+document.querySelectorAll('#score-0').textContent = dice;
