@@ -23,11 +23,32 @@
 // john.calculateAge();
 
 
-function arraySum(array) {
-    let sum = 0;
-    for (i=0; i<array.length;i++) {
-        sum = sum + array[i];
-    }
-    return(sum);
+//
+// // fizzBuzz
+// function fizzBuzz(number){
+//     for(i=1; i<=number; i++){
+//         if(i%15==0){
+//             console.log('fizzBuzz')
+//         }else if(i%3==0){
+//             console.log('fizz')
+//         }else if(i%5==0){
+//             console.log('buzz')
+//         }else{
+//             console.log(i);
+//         }
+//     }
+// }
+//
+// fizzBuzz(200);
+
+
+//Array Sum
+var numArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var sum = 0;
+//
+for(var i = 0;i<numArray.length;i++){
+    sum += numArray[i];
 }
+
 console.log(sum);
+
