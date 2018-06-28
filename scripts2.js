@@ -23,6 +23,23 @@
 // john.calculateAge();
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// Coder Interview Questions.
+
+
+
+
 //
 // // fizzBuzz
 // function fizzBuzz(number){
@@ -41,14 +58,16 @@
 //
 // fizzBuzz(200);
 
-
-//Array Sum
-var numArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-var sum = 0;
 //
-for(var i = 0;i<numArray.length;i++){
-    sum += numArray[i];
-}
+// //Array Sum
+// var numArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var sum = 0;
+// for(var i = 0;i<numArray.length;i++){
+//     sum += numArray[i];
+// }
+//
+// console.log(sum);
 
-console.log(sum);
+
+
 
