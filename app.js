@@ -51,6 +51,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
         document.getElementById('current-0').textContent = '0';
         document.getElementById('current-1').textContent = '0';
+
+        document.querySelector('player-0-panel').classList.remove('active');
     }
 
 
