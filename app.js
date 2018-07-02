@@ -53,27 +53,15 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 document.querySelector('.btn-hold').addEventListener('click', function () {
     // Add CURRENT score to Global Score
     scores[activePlayer] += roundScores;
-
-
-
-
     //Update The UI
     document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
-
-
-
     // Check if player won the game.
     if (scores[activePlayer] >= 100){
         document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
+    } else {
+        // Next Player
+        nextPlayer();
     }
-
-
-
-
-
-    // Next Player
-    nextPlayer();
-
 });
 
 function nextPlayer() {
