@@ -40,8 +40,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     diceDom.style.display = 'block';
     diceDom.src = 'dice-' + dice + '.png';
     // 3. Update the Round Score IF the rolled number was  not 1
-    if (dice > 1){
+    if (dice !== 1){
         //add score
+        roundScores += dice;
     } else{
         //next player
     }
