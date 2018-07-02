@@ -43,6 +43,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     if (dice !== 1){
         //add score
         roundScores += dice;
+        document.querySelector('#current-' + activePlayer).textContent = roundScores;
     } else{
         //next player
     }
@@ -54,7 +55,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
 
 //Saving for LATER
-// document.querySelector('#current-' + activePlayer).textContent = dice;
+
 // document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 
 
