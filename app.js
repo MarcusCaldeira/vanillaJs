@@ -63,12 +63,22 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         // document.querySelector('.player-1-panel').classList.add('active');
         document.querySelector('.dice').style.display = 'none';
     }
-
-
-
 });
 
+document.querySelector('.btn-hold').addEventListener('click', function () {
+    // Add CURRENT score to Global Score
+    scores[activePlayer] += roundScores;
 
+
+
+
+    //Update The UI
+    document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
+
+
+
+    // Check if player won the game.
+});
 
 //Saving for LATER
 // document.querySelector('#current-' + activePlayer).textContent = dice;
