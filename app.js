@@ -11,23 +11,7 @@ GAME RULES:
 
 
 var scores, roundScores, activePlayer;
-
-scores = [0,0];
-roundScores  = 0;
-activePlayer = 0;
-
-
-
-
-
-document.querySelector('.dice').style.display = 'none';
-
-document.getElementById('score-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
-
-
+init();
 
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
@@ -88,6 +72,20 @@ function nextPlayer() {
     document.querySelector('.dice').style.display = 'none';
 }
 
+document.querySelector('.btn-new').addEventListener('click', init);
+
+function init() {
+    scores = [0,0];
+    activePlayer = 0;
+    roundScores = 0;
+
+    document.querySelector('.dice').style.display = 'none';
+
+    document.getElementById('score-0').textContent = '0';
+    document.getElementById('score-1').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+}
 
 //Saving for LATER
 // document.querySelector('#current-' + activePlayer).textContent = dice;
