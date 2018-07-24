@@ -10,7 +10,7 @@ GAME RULES:
 */
 
 
-var scores, roundScores, activePlayer;
+var scores, roundScores, activePlayer, gamePlaying;
 init();
 
 
@@ -78,6 +78,7 @@ function init() {
     scores = [0,0];
     activePlayer = 0;
     roundScores = 0;
+    var gamePlaying = true;
 
     document.querySelector('.dice').style.display = 'none';
 
@@ -93,14 +94,13 @@ function init() {
     document.querySelector('.player-1-panel').classList.remove('active');
     document.querySelector('.player-1-panel').classList.add('active');
 
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
 
 //Saving for LATER
 // document.querySelector('#current-' + activePlayer).textContent = dice;
